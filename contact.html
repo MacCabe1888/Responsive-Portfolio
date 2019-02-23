@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio_Contact</title>
+    <!--link to CSS file-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <!--create navbar-->
+    <nav class="navbar">
+        <!--create logo/nameplate on left side of navbar using header-->
+        <header>
+            <h1 class="logo">Cameron MacCabe</h1>
+        </header>
+        <!--structure of right side of navbar: 3 links divided by 2 lines-->
+
+        <div class=navbarlinks>
+
+            <a class="navbar-link" href="index.html">About</a>
+
+            <a class="navbar-divider">|</a>
+    
+            <a class="navbar-link" href="portfolio.html">Portfolio</a>
+    
+            <a class="navbar-divider">|</a>
+            
+            <a class="navbar-link" href="#">Contact</a>
+
+        </div>
+
+    </nav>
+    <!--create background/wallpaper-->
+    <div class="background">
+        <!--create container distinct from background to hold content-->
+        <section class="container">
+            <!--separate header as a row in order to make a separating border/line in CSS-->
+            <div class="header-row">
+                <header>
+                    <h1>Contact</h1>
+                </header>
+            </div>
+            <!--create forms for data input-->
+            <form action="action_page.php">
+
+                <label for="name">Name</label>
+                <br>
+                <input type="text" id="name" name="name" placeholder="John Smith">
+
+                <p></p>
+
+                <label for="email">Email</label>
+                <br>
+                <input type="text" id="email" name="email" placeholder="example@gmail.com">
+
+                <p></p>
+
+                <label for="message">Message</label>
+                <br>
+                <textarea id="message" name="message"></textarea>
+
+                <p></p>
+
+                <input type="submit" id="submit" value="Submit">
+                
+            </form>
+
+        </section>
+
+    </div>
+    <!--create footer to display copyright notice-->
+    <footer>
+        <div class="footer-content">Copyright&nbsp;©</div>
+    </footer>
+
+</body>
+
+</html>

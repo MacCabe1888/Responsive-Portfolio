@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio_Portfolio</title>
+    <!--link to CSS file-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <!--create navbar-->
+    <nav class="navbar">
+        <!--create logo/nameplate on left side of navbar using header-->
+        <header>
+            <h1 class="logo">Cameron MacCabe</h1>
+        </header>
+        <!--structure of right side of navbar: 3 links divided by 2 lines-->
+        
+        <div class=navbarlinks>
+
+            <a class="navbar-link" href="index.html">About</a>
+
+            <a class="navbar-divider">|</a>
+    
+            <a class="navbar-link" href="#">Portfolio</a>
+    
+            <a class="navbar-divider">|</a>
+            
+            <a class="navbar-link" href="contact.html">Contact</a>
+
+        </div>
+
+    </nav>
+    <!--create background/wallpaper-->
+    <div class="background">
+        <!--create container distinct from background to hold content-->
+        <section class="container">
+            <!--separate header as a row in order to make a separating border/line in CSS-->
+            <div class="header-row">
+                <header>
+                    <h1>Portfolio</h1>
+                </header>
+            </div>
+            <!--group links into rows of 2-->
+            <div class="row">
+                <!--give each link its own container = background image specified in style sheet-->
+                <div id="pic1" class="img" alt="Project 1">
+                    <!--contain each link in its own miniature navbar within the background image-->
+                    <div class="bottomnav">
+                        <!--placeholder link and text in navbar-->
+                        <a href="#project1">Project 1</a>
+                    </div>
+                </div>
+
+                <div id="pic2" class="img" alt="Project 2">
+                    <div class="bottomnav">
+                        <a href="#project2">Project 2</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div id="pic3" class="img" alt="Project 3">
+                    <div class="bottomnav">
+                        <a href="#project3">Project 3</a>
+                    </div>
+                </div>
+        
+                <div id="pic4" class="img" alt="Project 4">
+                    <div class="bottomnav">
+                        <a href="#project4">Project 4</a>
+                    </div>
+                </div>
+    
+            </div>
+
+            <div class="row">
+
+                <div id="pic5" class="img" alt="Project 5">
+                    <div class="bottomnav">
+                        <a href="#project5">Project 5</a>
+                    </div>
+                </div>
+    
+            </div>
+
+        </section>
+
+    </div>
+    <!--create footer to display copyright notice-->
+    <footer>
+        <div class="footer-content">Copyright&nbsp;©</div>
+    </footer>
+
+</body>
+
+</html>

@@ -125,7 +125,8 @@ input, textarea{
 .img{
     background-position: center;
     background-repeat: no-repeat;
-    padding: 100px;
+    padding: 100px 145px;
+    border: outset 5px #4aaaa5;
     position: relative;
 }
 
@@ -143,11 +144,11 @@ input, textarea{
 /*indicate paths to the respective image files*/
 
 #pic1{
-    background-image: url("../images/cat1.jpeg");
+    background-image: url("../images/Word-Guess-Game.png");
 }
 
 #pic2{
-    background-image: url("../images/cat2.jpeg");
+    background-image: url("https://pmg.gishan.cc/static/i/p/alakazam.jpg");
 }
 
 #pic3{
@@ -225,7 +226,7 @@ body{
 
     .container {
         margin-left: 15px;
-        width: 67%;
+        width: 93%;
     }
 
     input, textArea, #message {
@@ -251,7 +252,7 @@ body{
     }
 
     .container {
-        width: 90%;
+        width: 95%;
     }
 
     input, textArea, #message {
@@ -275,7 +276,9 @@ body{
     .logo {
         position: static;
         width: 100%;
-        margin-left: -30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: -54px;
         text-align: center;
     }
 
@@ -295,6 +298,7 @@ body{
 
     .container {
         margin-top: 0;
+        margin-left: 10px;
         width: 85%;
     }
 

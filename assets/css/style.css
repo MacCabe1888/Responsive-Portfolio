@@ -136,7 +136,7 @@ input, textarea{
 }
 
 /*see comment above*/
-#pic2, #pic4{
+#pic2, #pic4, #pic6{
     float: right;
     margin-right: 300px;
 }
@@ -144,11 +144,11 @@ input, textarea{
 /*indicate paths to the respective image files*/
 
 #pic1{
-    background-image: url("../images/Word-Guess-Game.png");
+    background-image: url("../images/train-scheduler.jpg");
 }
 
 #pic2{
-    background-image: url("../images/triangular.png");
+    background-image: url("../images/Word-Guess-Game.png");
 }
 
 #pic3{
@@ -156,10 +156,14 @@ input, textarea{
 }
 
 #pic4{
-    background-image: url("../images/diamonds.jpg");
+    background-image: url("../images/triangular.png");
 }
 
 #pic5{
+    background-image: url("../images/diamonds.jpg");
+}
+
+#pic6{
     background-image: url("https://pmg.gishan.cc/static/i/p/alakazam.jpg");
 }
 
@@ -239,7 +243,7 @@ body{
         margin-bottom: -100px;
     }
 
-    #pic2, #pic4 {
+    #pic2, #pic4, #pic6 {
         margin-left: 50px;
     }
 
@@ -265,7 +269,7 @@ body{
         margin-bottom: -100px;
     }
 
-    #pic2, #pic4 {
+    #pic2, #pic4, #pic6 {
         margin-left: 50px;
     }
 
@@ -321,7 +325,7 @@ body{
         margin-bottom: 50px;
     }
 
-    #pic2, #pic4 {
+    #pic2, #pic4, #pic6 {
         margin-left: 75px;
     }
 

@@ -131,7 +131,7 @@ input, textarea{
 }
 
 /*pair pictures and links on the right with their partners on the left*/
-#pic1, #pic3, #pic5{
+#pic1, #pic3, #pic5, #pic7{
     float: left;
 }
 
@@ -144,26 +144,30 @@ input, textarea{
 /*indicate paths to the respective image files*/
 
 #pic1{
-    background-image: url("../images/train-scheduler.jpg");
+    background-image: url("../images/Moodie.png");
 }
 
 #pic2{
-    background-image: url("../images/Word-Guess-Game.png");
+    background-image: url("../images/train-scheduler.jpg");
 }
 
 #pic3{
-    background-image: url("../images/spongebob-wallpaper.jpg");
+    background-image: url("../images/Word-Guess-Game.png");
 }
 
 #pic4{
-    background-image: url("../images/triangular.png");
+    background-image: url("../images/spongebob-wallpaper.jpg");
 }
 
 #pic5{
-    background-image: url("../images/diamonds.jpg");
+    background-image: url("../images/triangular.png");
 }
 
 #pic6{
+    background-image: url("../images/diamonds.jpg");
+}
+
+#pic7{
     background-image: url("https://pmg.gishan.cc/static/i/p/alakazam.jpg");
 }
 
